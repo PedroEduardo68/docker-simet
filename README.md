@@ -7,7 +7,7 @@ To execute the software, simply run:
 
 
 ```bash
-Docker-compoe up --build
+Docker-compoe up -d
 ```
 
 The links are stored in /Links/url.txt and are generated every day at 00:05 AM.
