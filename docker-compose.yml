@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  simetboxlinux:
+    container_name: simetboxlinux
+    environment:
+      - TZ=America/Sao_Paulo
+    build:
+        context: ./Docker
+        dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - ./Links:/tmp/url:rw
+
